@@ -1,7 +1,11 @@
-## Put comments here that give an overall description of what your
-## functions do
+## cachematrix.R
+## Nathan Moser (nate@rezonate.org)
+##
+## Implements an object that calculates the inverse of a supplied matrix, 
+## and caches the result in the object. If the object is used again with the 
+## same input matrix, the cached result will be returned, rather than the
+## inverse being calculated again.
 
-## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
 
