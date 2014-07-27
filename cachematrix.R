@@ -29,7 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## if the inverse of the matrix has previously calculated, returns that
 ## cached result. Otherwise, the inverse of the matrix is calcuated, stored
 ## in the object passed in to cacheSolve, and then the inverse matrix is 
-## returned.
+## returned. It is assumed that the matrix supplied is always invertable.
 
 cacheSolve <- function(x, ...) {
     m <- x$getinverse()
