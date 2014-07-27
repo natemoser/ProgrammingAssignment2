@@ -1,8 +1,8 @@
 ## cachematrix.R
 ## Nathan Moser (nate@rezonate.org)
 ##
-## Implements an object can be used to calculate the inverse of a supplied matrix, 
-## and caches the result in the object. If the object is used again to find
+## Implements an object that can be used to calculate the inverse of a supplied matrix, 
+## and cache the result in the object. If the object is used again to find
 ## the inverted matrix, the cached result will be returned, rather than the
 ## inverse being calculated again.
 
